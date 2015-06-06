@@ -1,0 +1,326 @@
+/* --------- Hypertext links --------- */
+h1 {
+
+	font-weight: bold;
+	font-size: 140%;
+	padding-left: 26px;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #570A02;
+	margin-bottom: 10px;
+	}
+
+h2 {
+
+	font-size: 120%;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #570A02;
+	margin-bottom: 6px;
+	}
+
+h3 {font-size: 100%;}
+h4 {font-size: 90%;}
+h5 {font-size: 90%;}
+h6 {font-size: 90%;}
+
+
+
+h3, h4, h5, h6 {
+	padding: 0px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+
+
+a {
+
+	color: #83380A;
+	text-decoration: none;
+	position: relative;
+
+}
+
+a:hover {
+	color: #570A02;
+	text-decoration: underline;
+
+}
+
+
+
+img {	border:	0px;
+position: relative;
+}
+
+
+
+/* --------- Tables and cells --------- */
+table {
+	width: 100%;
+	text-align:left;
+}
+table td {
+	padding: 0;
+	vertical-align: top;
+	border-width: 0;  
+}
+th {
+	padding: 4px;
+	vertical-align: middle;
+	background:  url("../img/nav.png") repeat-x ; 
+	color:#2F4F4F;
+	text-align:center;
+	
+	
+}
+.outer {
+	padding: 2px;
+	
+}
+.head {
+    
+	background:  url("../img/head.png") no-repeat ; 
+	padding: 5px;
+	font-weight: bold;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #DDDDFF;
+	border-bottom: 1px solid #DDDDFF;
+	
+}
+.even {
+	background-color: #fff;
+	padding: 5px;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #DDDDFF;
+	border-bottom: 1px solid #DDDDFF;
+}
+.odd {
+	background-color: #fff;
+	padding: 5px;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #DDDDFF;
+	border-bottom: 1px solid #DDDDFF;
+}
+.foot {
+	background-color: #f3f3f3;
+	padding: 5px;
+	font-weight: bold;
+}
+tr.even td {
+	background-color: #fff;
+	padding: 5px;
+	border-bottom: 1px dotted #DDDDFF;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #DDDDFF;
+	border-bottom: 1px solid #DDDDFF;
+}
+tr.odd td {
+	background-color: #fff;
+	padding: 5px;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #DDDDFF;
+	border-bottom: 1px solid #DDDDFF;
+}
+
+/* --------- Core messages --------- */
+.errorMsg {
+	background-color: #FFCCCC;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	font-weight: bold;  
+}
+.confirmMsg {
+	background-color: #DDFFDF;
+	padding: 10px;
+	color: #136C99;  
+	text-align: center;
+	font-weight: bold; 
+	border-top: 1px solid #DDDDFF;
+	border-left: 1px solid #DDDDFF;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;   
+}
+.resultMsg {
+	background-color: #c1c1c1;
+	padding: 10px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;  
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;  
+}
+
+/* --------- Codes and Quotes --------- */
+.xoopsCode {
+
+	background:			#F3E7D8;
+	font-family:		monospace;
+	border:				1px solid #d0d0d0;
+	padding:			.5em;
+	width:				100%;
+	display:			block;
+	overflow: auto;
+	font-family: Segoe UI, Tahoma, "Lucida Console", "courier new", monospace;
+}	
+blockquote {
+
+	margin-left:		.5em;
+
+	border:				1px solid #83380A;
+
+	border-left-width:	4px;
+
+	background:			#f4faff;
+
+	padding:			.5em;
+}	
+/* --------- Articles --------- */
+.item {
+	margin-top: 20px;
+  	
+}
+.itemHead {
+	
+	height: 20px;
+    padding-bottom:0px;
+   background:				url("../img/fh.png") repeat-x; 
+   padding-left:10px;
+	padding-top:4px
+	
+}
+.itemInfo { 
+	background-color: #F7F7F7;
+	padding: 3px;
+	text-align:left; 
+}
+.itemTitle {
+	color: #A52A2A;   
+	   padding-top:6px; 	
+}
+.itemTitle a {
+	padding: 4px;
+	color: #A52A2A;
+	text-decoration: none;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size:1.1em;
+	font-weight: bold;
+	line-height: 1.2em;
+	
+	
+	
+	
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal; color:#191970;
+}
+.itemBody {
+padding-left : 3px;
+
+
+
+}
+.itemText {
+	color:#666666;
+	font-size:1.1em;
+	line-height:1.4em;
+	padding:10px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	
+}
+.itemFoot {  
+	border: ; 
+	border-left: none; 
+	border-right: none; 
+	background : url("../img/2.png") no-repeat bottom;
+	padding: 10px 10px; 
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	text-align:center;
+
+	
+	
+	
+	
+}
+.itemAdminLink {
+    font-size: .9em;  color:#191970;
+   
+	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	color:     #191970;
+}
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color: #fff;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+

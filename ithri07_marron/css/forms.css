@@ -1,0 +1,92 @@
+/* --------- Forms --------- */
+nput[type=submit], input[type=button]  {
+
+	color: #F3E7D8;
+
+	background-color: #570A02;
+
+	border: 1px solid #451201;
+
+	font: bold 90% Verdana, Arial, Helvetica, sans-serif;
+
+	text-transform: lowercase;
+
+	padding: 2px;
+
+}
+
+
+
+input[type=submit]:hover, input[type=button]:hover {
+
+	background: #83380A;
+
+	cursor: pointer;
+
+}
+
+
+
+select {
+
+font-size: 90%;
+
+color: #444;
+
+}
+
+
+
+select[name=timezone_offset] {
+
+	font-size: 90%;
+
+}
+
+
+
+input[type=text], input[type=password], textarea {
+
+	border:	1px solid #ddd;
+
+	margin:	0px 0px;
+
+	padding: 2px;
+
+	background-color:	#FFF;
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	font-size: 100%;
+
+}
+
+
+
+input[type=text], input[type=password] {
+
+	color: #444444;
+
+}
+
+
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+
+	color: #444444;
+
+}
+
+
+
+textarea {
+
+	width: 95%;
+
+	color: #444444;
+
+	}
+
+
+
+
